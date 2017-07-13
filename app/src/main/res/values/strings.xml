@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Hynish</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">Interstitial Ad</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <!-- AdMob ad unit IDs -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-5687919180687585/2801205154</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5687919180687585/1324471954</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_home_fragment">Welcome to Panchsheel Hynish</string>
+    <string name="message_home_fragment">Panchsheel Hynish Application is one stop for all the information you need. \n\nWe are developing this application and in tring to bring the best suitable information which you need. \n\nThis application is in testing. \n\nWe are fixing bug and integrating any suggestion provided by user.</string>
+    <string name="feedback_home_fragment">Please provide your feedback and suggestion</string>
+
+    <string name="home_title">Panchsheel Hynish</string>
+    <string name="info_title">Information</string>
+    <string name="contact_title">Contact Details</string>
+
+    <string name="contact_maintenance">Maintenance</string>
+    <string name="contact_main_person">Charanjeet Gill</string>
+    <string name="contact_main_number">+91 7876777009</string>
+
+    <string name="contact_carpanter">Carpanter</string>
+    <string name="contact_carpanter_person">Sonu Sharma</string>
+    <string name="contact_carpanter_number">+91 9560578026</string>
+
+    <string name="contact_plumbing">Plumbing</string>
+    <string name="contact_plumbing_person1">Chaman Singh</string>
+    <string name="contact_plumbing_number1">+91 9810919391</string>
+
+    <string name="contact_plumbing_person2">Ajay Kumar</string>
+    <string name="contact_plumbing_number2">+91 9560272098</string>
+
+    <string name="contact_plumbing_person3">Uma Shanker</string>
+    <string name="contact_plumbing_number3">+91 8447084327</string>
+
+    <string name="contact_plumbing_person4">Tajuddun</string>
+    <string name="contact_plumbing_number4">+91 9015652867</string>
+
+    <string name="contact_plumbing_person5">Ram kailash</string>
+    <string name="contact_plumbing_number5">+91 8010612129</string>
+
+    <string name="contact_plumbing_person6">Raju</string>
+    <string name="contact_plumbing_number6">+91 9830850544</string>
+
+    <string name="contact_plumbing_person7">Paras (Pump operator)</string>
+    <string name="contact_plumbing_number7">+91 9643726836</string>
+
+    <string name="contact_electrical">Electrical</string>
+    <string name="contact_electrical_person1">Sushil Rai (Electrical Engineer)</string>
+    <string name="contact_electrical_number1">+91 8882105853</string>
+
+    <string name="contact_electrical_person2">Ankush</string>
+    <string name="contact_electrical_number2">+91 8750505510</string>
+
+    <string name="contact_electrical_person3">Ajeet</string>
+    <string name="contact_electrical_number3">+91 9643641488</string>
+
+    <string name="contact_electrical_person4">Tejpal Singh</string>
+    <string name="contact_electrical_number4">+91 9540565181</string>
+
+    <string name="contact_electrical_person5">Prem Chand</string>
+    <string name="contact_electrical_number5">+91 9719767852</string>
+
+    <string name="contact_electrical_person6">Rahul Sharma</string>
+    <string name="contact_electrical_number6">+91 8800619952</string>
+
+    <string name="contact_lift">Lift Operator</string>
+    <string name="contact_lift_person1">Raj Kumar</string>
+    <string name="contact_lift_number1">+91 9456267528</string>
+
+    <string name="contact_lift_person2">Rohit</string>
+    <string name="contact_lift_number2">+91 9560172390</string>
+
+    <string name="hindware">Hindware Complaint No. : 1800 200 7577</string>
+    <string name="kone_lift">Kone lift 1800 108 1234 / 1800 425 4254</string>
+    <string name="lift_complaint">Jasbir Service (Lift complaint) +91 8800194894 </string>
+
+<!--Information Board-->
+    <string name="title_info_fragment">Notice Board</string>
+    <string name="message_info_fragment">Dear Panchsheel Hynish Residents, \n\n We are going to close the open registration for everyone in our application. In future we will have a representative from each tower and if you want to get someone registered in the protal, you have to approach him for the same.\n\n We will update the list of representative soon so keep checking the Notice Board.</string>
+
+</resources>

@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cfapps.io.hynish.ContactFragment">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_column="0"
+                android:layout_span="2"
+                android:gravity="center"
+                android:padding="18dip"
+                app:srcCompat="@mipmap/hynish" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_column="0"
+                android:layout_span="2"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="@string/home_title"
+                android:textSize="22sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewMainTitle"
+                android:layout_column="0"
+                android:layout_span="2"
+                android:gravity="top|center"
+                android:padding="5dp"
+                android:text="@string/contact_maintenance"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewMainPerson"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_main_person" />
+
+            <TextView
+                android:id="@+id/textViewMainNumber"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_main_number" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/contact_carpanter"
+                android:layout_column="0"
+                android:layout_span="2"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/contact_carpanter"
+                android:textIsSelectable="true"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewCarPerson"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_carpanter_person" />
+
+            <TextView
+                android:id="@+id/textViewCarNumber"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_carpanter_number" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/contact_plumber"
+                android:layout_column="0"
+                android:layout_span="2"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/contact_plumbing"
+                android:textIsSelectable="true"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewPlumbingPerson1"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_plumbing_person1" />
+
+            <TextView
+                android:id="@+id/textViewPlumbingNumber1"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_plumbing_number1" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewPlumbingPerson2"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_plumbing_person2" />
+
+            <TextView
+                android:id="@+id/textViewPlumbingNumber2"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_plumbing_number2" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewPlumbingPerson3"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_plumbing_person3" />
+
+            <TextView
+                android:id="@+id/textViewPlumbingNumber3"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_plumbing_number3" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewPlumbingPerson4"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_plumbing_person4" />
+
+            <TextView
+                android:id="@+id/textViewPlumbingNumber4"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_plumbing_number4" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewPlumbingPerson5"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_plumbing_person5" />
+
+            <TextView
+                android:id="@+id/textViewPlumbingNumber5"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_plumbing_number5" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewPlumbingPerson6"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_plumbing_person6" />
+
+            <TextView
+                android:id="@+id/textViewPlumbingNumber6"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_plumbing_number6" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewPlumbingPerson7"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_plumbing_person7" />
+
+            <TextView
+                android:id="@+id/textViewPlumbingNumber7"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_plumbing_number7" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/contact_electrical"
+                android:layout_column="0"
+                android:layout_span="2"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/contact_electrical"
+                android:textIsSelectable="true"
+                android:textSize="20sp" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewElectricPerson1"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_electrical_person1" />
+
+            <TextView
+                android:id="@+id/textViewElectricNumber1"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_electrical_number1" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewElectricPerson2"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_electrical_person2" />
+
+            <TextView
+                android:id="@+id/textViewElectricNumber2"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_electrical_number2" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewElectricPerson3"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_electrical_person3" />
+
+            <TextView
+                android:id="@+id/textViewElectricNumber3"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_electrical_number3" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewElectricPerson4"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_electrical_person4" />
+
+            <TextView
+                android:id="@+id/textViewElectricNumber4"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_electrical_number4" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewElectricPerson5"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_electrical_person5" />
+
+            <TextView
+                android:id="@+id/textViewElectricNumber5"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_electrical_number5" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewElectricPerson6"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_electrical_person6" />
+
+            <TextView
+                android:id="@+id/textViewElectricNumber6"
+                android:gravity="center"
+                android:textIsSelectable="true"
+                android:padding="3dip"
+                android:text="@string/contact_electrical_number6" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/contact_lift"
+                android:layout_column="0"
+                android:layout_span="2"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_lift"
+                android:textSize="20sp" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewLiftPerson1"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_lift_person1" />
+
+            <TextView
+                android:id="@+id/textViewLiftNumber1"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_lift_number1" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewLiftPerson2"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_lift_person2" />
+
+            <TextView
+                android:id="@+id/textViewLiftNumber2"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/contact_lift_number2" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewhindware"
+                android:layout_column="0"
+                android:layout_span="2"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/hindware" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewkone_lift"
+                android:layout_column="0"
+                android:layout_span="2"
+                android:gravity="center"
+                android:padding="3dip"
+                android:textIsSelectable="true"
+                android:text="@string/kone_lift" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewlift_complaint"
+                android:layout_column="0"
+                android:layout_span="2"
+                android:gravity="center"
+                android:padding="3dip"
+                android:paddingBottom="100dp"
+                android:textIsSelectable="true"
+                android:text="@string/lift_complaint" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn_fullscreen_ad"
+                android:text="@string/title_activity_second"
+                android:layout_column="0"
+                android:layout_span="2"
+                android:gravity="center"
+                android:padding="18dip"
+                android:paddingBottom="100dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView />
+        </TableRow>
+    </TableLayout>
+</ScrollView>
