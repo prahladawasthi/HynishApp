@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Hynish</string>
+    <string name="app_name">Hynish Residents</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -20,7 +20,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="title_home_fragment">Welcome to Panchsheel Hynish</string>
-    <string name="message_home_fragment">Panchsheel Hynish Application is one stop for all the information you need. \n\nWe are developing this application and in tring to bring the best suitable information which you need. \n\nThis application is in testing. \n\nWe are fixing bug and integrating any suggestion provided by user.</string>
+    <string name="message_home_fragment">Panchsheel Hynish Residents Application is one stop for all the information you need. \n\nWe are developing this application and in tring to bring the best suitable information which you need. \n\nThis application is in testing. \n\nWe are fixing bug and integrating any suggestion provided by user.</string>
     <string name="feedback_home_fragment">Please provide your feedback and suggestion</string>
 
     <string name="home_title">Panchsheel Hynish</string>
@@ -87,8 +87,11 @@
     <string name="kone_lift">Kone lift 1800 108 1234 / 1800 425 4254</string>
     <string name="lift_complaint">Jasbir Service (Lift complaint) +91 8800194894 </string>
 
-<!--Information Board-->
+    <!--Information Board-->
     <string name="title_info_fragment">Notice Board</string>
     <string name="message_info_fragment">Dear Panchsheel Hynish Residents, \n\n We are going to close the open registration for everyone in our application. In future we will have a representative from each tower and if you want to get someone registered in the protal, you have to approach him for the same.\n\n We will update the list of representative soon so keep checking the Notice Board.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

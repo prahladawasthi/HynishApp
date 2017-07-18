@@ -60,6 +60,7 @@
                 android:id="@+id/textViewMainNumber"
                 android:gravity="center"
                 android:padding="3dip"
+                android:autoLink="phone"
                 android:textIsSelectable="true"
                 android:text="@string/contact_main_number" />
 
@@ -92,6 +93,7 @@
                 android:gravity="center"
                 android:padding="3dip"
                 android:textIsSelectable="true"
+                android:autoLink="phone"
                 android:text="@string/contact_carpanter_number" />
         </TableRow>
 
@@ -123,6 +125,7 @@
                 android:gravity="center"
                 android:padding="3dip"
                 android:textIsSelectable="true"
+                android:autoLink="phone"
                 android:text="@string/contact_plumbing_number1" />
         </TableRow>
 
@@ -140,6 +143,7 @@
                 android:gravity="center"
                 android:padding="3dip"
                 android:textIsSelectable="true"
+                android:autoLink="phone"
                 android:text="@string/contact_plumbing_number2" />
         </TableRow>
 
@@ -157,6 +161,7 @@
                 android:gravity="center"
                 android:padding="3dip"
                 android:textIsSelectable="true"
+                android:autoLink="phone"
                 android:text="@string/contact_plumbing_number3" />
         </TableRow>
 
@@ -174,6 +179,7 @@
                 android:gravity="center"
                 android:padding="3dip"
                 android:textIsSelectable="true"
+                android:autoLink="phone"
                 android:text="@string/contact_plumbing_number4" />
         </TableRow>
 
@@ -191,6 +197,7 @@
                 android:gravity="center"
                 android:padding="3dip"
                 android:textIsSelectable="true"
+                android:autoLink="phone"
                 android:text="@string/contact_plumbing_number5" />
         </TableRow>
 
@@ -208,6 +215,7 @@
                 android:gravity="center"
                 android:padding="3dip"
                 android:textIsSelectable="true"
+                android:autoLink="phone"
                 android:text="@string/contact_plumbing_number6" />
         </TableRow>
 
@@ -225,6 +233,7 @@
                 android:gravity="center"
                 android:padding="3dip"
                 android:textIsSelectable="true"
+                android:autoLink="phone"
                 android:text="@string/contact_plumbing_number7" />
         </TableRow>
 
@@ -256,6 +265,7 @@
                 android:gravity="center"
                 android:padding="3dip"
                 android:textIsSelectable="true"
+                android:autoLink="phone"
                 android:text="@string/contact_electrical_number1" />
         </TableRow>
 
@@ -273,6 +283,7 @@
                 android:gravity="center"
                 android:padding="3dip"
                 android:textIsSelectable="true"
+                android:autoLink="phone"
                 android:text="@string/contact_electrical_number2" />
         </TableRow>
 
@@ -290,6 +301,7 @@
                 android:gravity="center"
                 android:padding="3dip"
                 android:textIsSelectable="true"
+                android:autoLink="phone"
                 android:text="@string/contact_electrical_number3" />
         </TableRow>
 
@@ -307,6 +319,7 @@
                 android:gravity="center"
                 android:padding="3dip"
                 android:textIsSelectable="true"
+                android:autoLink="phone"
                 android:text="@string/contact_electrical_number4" />
         </TableRow>
 
@@ -324,6 +337,7 @@
                 android:gravity="center"
                 android:padding="3dip"
                 android:textIsSelectable="true"
+                android:autoLink="phone"
                 android:text="@string/contact_electrical_number5" />
         </TableRow>
 
@@ -341,6 +355,7 @@
                 android:gravity="center"
                 android:textIsSelectable="true"
                 android:padding="3dip"
+                android:autoLink="phone"
                 android:text="@string/contact_electrical_number6" />
         </TableRow>
 
@@ -372,6 +387,7 @@
                 android:gravity="center"
                 android:padding="3dip"
                 android:textIsSelectable="true"
+                android:autoLink="phone"
                 android:text="@string/contact_lift_number1" />
         </TableRow>
 
@@ -389,6 +405,7 @@
                 android:gravity="center"
                 android:padding="3dip"
                 android:textIsSelectable="true"
+                android:autoLink="phone"
                 android:text="@string/contact_lift_number2" />
         </TableRow>
 
